@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side
+{
+    position: relative;
+    background: #5893a0;
+    padding: 40px;
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 10px solid rgba(53, 46, 46, 0.247);
+}
+
+.profiletext h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profiletext h2 span
+{
+    font-size: 0.6em;
+    font-weight: 300;
+}
+.contactInf
+{
+    padding-top: 40px;
+}
+.titulo
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInf ul
+{
+    position: relative;    
+}
+.contactInf ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInf ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:chartreuse;
+}
+.contactInf ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInf.educación li
+{
+    margin-bottom: 15px;
+}
+.contactInf.educación h5
+{
+    color: burlywood;
+    font-weight: 500;
+}
+.contactInf.educación h4
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.container .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.sobremi
+{
+    margin-bottom: 50px;
+}
+.sobremi:last-child
+{
+    margin-bottom: 0;
+}
+.titulo2
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.experiencia
+{
+    margin-bottom: 50px;
+}
+.experiencia:last-child
+{
+    margin-bottom: 0;
+}
+.titulo3
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.boton
+{
+    color: rgb(0, 146, 7);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 10px solid rgba(243, 154, 239, 0.247);
+}
+.boton h2
+{
+    color: blue;
+}
+.boton span
+{
+    color: black;
+}
